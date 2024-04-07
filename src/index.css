@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html * {
+        transition: color .3s ease, background-color .3s ease;
+    } 
+}
